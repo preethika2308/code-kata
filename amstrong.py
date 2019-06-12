@@ -1,0 +1,11 @@
+s=int(input())
+amst=0
+eep=s
+while(eep>0):
+  digit=eep%10
+  amst+=digit**3
+  eep//=10
+if(s==amst):
+  print('yes')
+else:
+  print('no')
