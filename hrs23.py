@@ -1,5 +1,5 @@
-s,p=map(int,input().split())
+s,u=map(int,input().split())
 t,o=map(int,input().split())
 g=abs(s-t)
-k=abs(p-o)
+k=abs(u-o)
 print(g,k)
