@@ -1,2 +1,2 @@
-s=input()
-print(len(s)-s.count(' '))
+ts=input()
+print(len(ts)-ts.count(' '))
