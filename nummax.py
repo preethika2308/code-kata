@@ -1,2 +1,2 @@
-s=list(map(int,input().split()))
-print(max(s))
+sty=list(map(int,input().split()))
+print(max(sty))
