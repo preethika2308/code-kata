@@ -1,0 +1,5 @@
+n = input()
+num = input().split()
+s = max(num)
+k = min(num)
+print(s,k)
