@@ -1,0 +1,5 @@
+nu1,nu2,nu3=input().split()
+nu1=int(nu1)
+nu2=int(nu2)
+nu3=int(nu3)
+print(int((nu1*nu2)/nu3)
