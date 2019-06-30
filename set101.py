@@ -1,0 +1,6 @@
+nu1,nu2=input().split()
+nu1=int(nu1)
+nu2=int(nu2)
+nu=list(map(int,input().split()))
+nu.sort()
+print(nu[nu2-1])
