@@ -1,0 +1,5 @@
+ad,bd,cd=input().split()
+ad=int(ad)
+bd=int(bd)
+cd=int(cd)
+print(ad*b%dcd)
