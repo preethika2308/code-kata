@@ -1,8 +1,8 @@
-ag=int(input())
-bg=[int(i) for i in input().split()]
+agk=int(input())
+bgk=[int(i) for i in input().split()]
 x=0
-for k in range(ag):
+for k in range(agk):
    for j in range(k):
-      if bg[j]<bg[k]:
-         x+=b[j]
+      if bgk[j]<bgk[k]:
+         x+=bgk[j]
 print(x) 
